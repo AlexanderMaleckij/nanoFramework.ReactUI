@@ -1,0 +1,20 @@
+﻿<!-- Docs: https://learn.microsoft.com/en-us/visualstudio/javascript/javascript-project-system-msbuild-reference -->
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.128-alpha">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+  </PropertyGroup>
+    
+  <!-- Test-related settings -->
+  <PropertyGroup>
+	<JavaScriptTestRoot>src\</JavaScriptTestRoot>
+	<JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+	<TestCommand>npm run test</TestCommand>
+  </PropertyGroup>
+
+  <!-- Build-related settings -->
+  <PropertyGroup>
+    <ShouldRunBuildScript>true</ShouldRunBuildScript>
+	<CleanCommand>npm run clean</CleanCommand>
+    <BuildCommand>npm run build</BuildCommand>
+  </PropertyGroup>
+</Project>
