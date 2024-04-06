@@ -1,10 +1,11 @@
-﻿using nanoFramework.ResourcesMetadata;
-using nanoFramework.Runtime.Native;
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Net;
 using System.Resources;
 using System.Threading;
+
+using nanoFramework.ResourcesMetadata;
+using nanoFramework.Runtime.Native;
 
 namespace nanoFramework.ReactUI
 {

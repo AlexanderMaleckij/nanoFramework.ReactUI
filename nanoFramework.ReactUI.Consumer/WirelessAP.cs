@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Net;
 using System.Net.NetworkInformation;
+
 using Iot.Device.DhcpServer;
+
 using nanoFramework.Runtime.Native;
 
 namespace nanoFramework.ReactUI.Consumer

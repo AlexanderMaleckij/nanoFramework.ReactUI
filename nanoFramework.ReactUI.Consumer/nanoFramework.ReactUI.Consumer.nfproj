@@ -25,9 +25,6 @@
     <Compile Include="WirelessAP.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\nanoFramework.ReactUI\nanoFramework.ReactUI.nfproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="Iot.Device.DhcpServer">
       <HintPath>..\packages\nanoFramework.Iot.Device.DhcpServer.1.2.454\lib\Iot.Device.DhcpServer.dll</HintPath>
     </Reference>
@@ -61,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nanoFramework.ReactUI\nanoFramework.ReactUI.nfproj" />
   </ItemGroup>
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets')" />
   <ProjectExtensions>
