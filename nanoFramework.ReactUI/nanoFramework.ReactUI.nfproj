@@ -23,7 +23,13 @@
   <ItemGroup>
     <ResourcesSource Include="..\reactproject\build" />
     <Analyzer Include="..\packages\amaletski.nanoFramework.SourceGenerators.0.1.3\analyzers\dotnet\cs\*.dll" />
-    <AdditionalFiles Include="Resources.resx" ResourceMetadata_IncludeName="true" ResourceMetadata_IncludeUriPath="true" ResourceMetadata_IncludeSize="true" ResourceMetadata_IncludeContentType="true" ResourceMetadata_IncludeContentEncoding="true" ResourcesMetadataProvider_Generate="true" ResourcesMetadataProvider_GenerateFindByName="true" ResourcesMetadataProvider_GenerateFindByUriPath="true" />
+    <AdditionalFiles Include="Resources.resx"
+      ResourceMetadata_IncludeUriPath="true"
+      ResourceMetadata_IncludeSize="true"
+      ResourceMetadata_IncludeContentType="true"
+      ResourceMetadata_IncludeContentEncoding="true"
+      ResourcesMetadataProvider_Generate="true"
+      ResourcesMetadataProvider_GenerateFindByUriPath="true" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
